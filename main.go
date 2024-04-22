@@ -54,6 +54,6 @@ func (s *Server) readLoop(conn net.Conn) {
 	}
 }
 func main() {
-	server := NewServer(":8001")
+	server := NewServer(":8000")
 	server.Start()
 }
